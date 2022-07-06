@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Bevan', cursive;
+    
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    text-transform: uppercase;
+}
+
+h1{
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    color: white;
+}
+
+#logo {
+    display:grid;
+}
+
+.inputs {
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    max-width: 500px;
+    
+}
+
+#celsius, #fahrenheit {
+    flex: 1 1 40%;
+    margin: 15px;
+    appearance: none;
+    background: none;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    max-width: 100%;
+}
+
+img {
+    width: 50px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+::placeholder {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
