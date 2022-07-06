@@ -1,3 +1,10 @@
+.firebase
+.vscode
+.firebaserc
+firebase.json
+
+
+
 # Logs
 logs
 *.log
