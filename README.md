@@ -1,6 +1,6 @@
 # Temperature Converter 
 
-Converts celsius to fahrenhei and vice versa.
+Converts celsius to fahrenheit and vice versa.
 
 [Click to run demo](https://temperature-converter-ee467.web.app/)
 
